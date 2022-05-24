@@ -11,7 +11,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class UrlshortenerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UrlshortenerApplication.class, args);
+		System.out.println("Test");
+		SpringApplication.run(UrlshortenerApplication.class, args
+		);
 	}
 
 }
